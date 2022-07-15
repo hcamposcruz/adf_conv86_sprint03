@@ -22,7 +22,7 @@
 					"value": "@dataset().NomeArq",
 					"type": "Expression"
 				},
-				"folderPath": "kenan/validados_a_processar",
+				"folderPath": "kenan",
 				"container": "arq-ajustes"
 			},
 			"columnDelimiter": ";",
@@ -31,5 +31,6 @@
 			"quoteChar": "\""
 		},
 		"schema": []
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
 }

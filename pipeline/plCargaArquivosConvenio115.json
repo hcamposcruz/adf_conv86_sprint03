@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "dfMapeamento115Controle",
+				"name": "dfMapeamento115Item",
 				"type": "ExecuteDataFlow",
 				"dependsOn": [],
 				"policy": {
@@ -16,7 +16,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"dataflow": {
-						"referenceName": "dfMapeamento115Controle",
+						"referenceName": "dfMapeamento115Item",
 						"type": "DataFlowReference"
 					},
 					"integrationRuntime": {
@@ -43,15 +43,15 @@
 						"referenceName": "dfMapeamento115Cadastral",
 						"type": "DataFlowReference"
 					},
-					"compute": {
-						"coreCount": 8,
-						"computeType": "General"
+					"integrationRuntime": {
+						"referenceName": "integrationRuntimeConv86",
+						"type": "IntegrationRuntimeReference"
 					},
 					"traceLevel": "Fine"
 				}
 			},
 			{
-				"name": "dfMapeamento115Item",
+				"name": "dfMapeamento115Controle",
 				"type": "ExecuteDataFlow",
 				"dependsOn": [],
 				"policy": {
@@ -64,12 +64,12 @@
 				"userProperties": [],
 				"typeProperties": {
 					"dataflow": {
-						"referenceName": "dfMapeamento115Item",
+						"referenceName": "dfMapeamento115Controle",
 						"type": "DataFlowReference"
 					},
-					"compute": {
-						"coreCount": 8,
-						"computeType": "General"
+					"integrationRuntime": {
+						"referenceName": "integrationRuntimeConv86",
+						"type": "IntegrationRuntimeReference"
 					},
 					"traceLevel": "Fine"
 				}
@@ -91,9 +91,9 @@
 						"referenceName": "dfMapeamento115Mestre",
 						"type": "DataFlowReference"
 					},
-					"compute": {
-						"coreCount": 8,
-						"computeType": "General"
+					"integrationRuntime": {
+						"referenceName": "integrationRuntimeConv86",
+						"type": "IntegrationRuntimeReference"
 					},
 					"traceLevel": "Fine"
 				}
@@ -102,6 +102,8 @@
 		"folder": {
 			"name": "CargaArquivosConv115"
 		},
-		"annotations": []
-	}
+		"annotations": [],
+		"lastPublishTime": "2022-07-07T11:46:09Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
 }

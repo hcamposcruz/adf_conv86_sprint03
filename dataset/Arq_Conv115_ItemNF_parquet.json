@@ -13,12 +13,13 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "teste",
+				"fileName": "convenio115ItemNFTeste",
 				"folderPath": "parquet/convenio115ItemNF",
 				"container": "arq-conv115"
 			},
 			"compressionCodec": "snappy"
 		},
 		"schema": []
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
 }
