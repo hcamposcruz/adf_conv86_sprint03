@@ -1,1 +1,2 @@
-# adf_conv86_sprint03
+# convenio86
+Projeto Convenio86 - Telefonica
